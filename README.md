@@ -31,5 +31,5 @@ Keep each JPG under ~400 KB (export at quality 80) so the site loads quickly.
 
 ## Deployment
 
-Every push to `main` builds and deploys to GitHub Pages via `.github/workflows/deploy.yml`.
-One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+Hosted on Vercel (settings in `vercel.json`). Every push to `main` deploys to production automatically;
+other branches and pull requests get preview URLs.
