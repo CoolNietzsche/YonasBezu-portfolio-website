@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+.DS_Store
+.vscode/
+.idea/
+# Never commit Manus platform config (contains secrets)
+.project-config.json
+.manus-logs/
