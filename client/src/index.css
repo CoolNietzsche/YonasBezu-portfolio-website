@@ -56,7 +56,7 @@ button:focus-visible, a:focus-visible { outline: 1px solid #c9a86a; outline-offs
 .rail-count { font-size: 9px; letter-spacing: 0.13em; }
 
 .hero-section { --hero-x: 0px; --hero-y: 0px; min-height: 92vh; position: relative; display: flex; align-items: center; overflow: hidden; background: #11100f; }
-.hero-image { position: absolute; inset: -2%; width: 104%; height: 104%; object-fit: cover; object-position: 50% 52%; opacity: 0.86; transform: translate3d(var(--hero-x), var(--hero-y), 0) scale(1.035); transition: transform 800ms cubic-bezier(0.23,1,0.32,1); }
+.hero-image { position: absolute; inset: -2%; width: 104%; height: 104%; object-fit: cover; object-position: 60% 40%; opacity: 0.86; transform: translate3d(var(--hero-x), var(--hero-y), 0) scale(1.035); transition: transform 800ms cubic-bezier(0.23,1,0.32,1); }
 .hero-vignette { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16,15,14,0.99) 0%, rgba(16,15,14,0.87) 33%, rgba(16,15,14,0.2) 70%, rgba(16,15,14,0.4) 100%), linear-gradient(0deg, rgba(16,15,14,0.62), transparent 48%); }
 .hero-grid { position: absolute; inset: 0; opacity: 0.12; background-size: 76px 76px; background-image: linear-gradient(rgba(201,168,106,0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,106,0.2) 1px, transparent 1px); mask-image: linear-gradient(90deg, black, transparent 75%); }
 .hero-copy { position: relative; z-index: 2; padding-top: 78px; margin-left: max(96px, calc((100% - 1180px) / 2)); }
@@ -303,7 +303,7 @@ h3 { margin: 10px 0 7px; font-size: clamp(2.5rem, 4.2vw, 4.3rem); line-height: 0
   .nav-cta { justify-content: space-between; }
   .programme-rail { display: none; }
   .hero-section { min-height: 760px; align-items: flex-end; }
-  .hero-image { object-position: 50% 52%; opacity: 0.63; }
+  .hero-image { object-position: 69% 40%; opacity: 0.63; }
   .hero-vignette { background: linear-gradient(0deg, rgba(16,15,14,0.99) 5%, rgba(16,15,14,0.7) 54%, rgba(16,15,14,0.12) 100%); }
   .hero-copy { margin-left: 22px; padding-bottom: 78px; padding-top: 120px; }
   h1 { font-size: clamp(4.3rem, 20vw, 7rem); }
