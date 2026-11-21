@@ -101,14 +101,18 @@ const showreels = [
 
 // Gallery: add or remove entries here. Files go in client/public/images/gallery/.
 const galleryItems = [
-  { file: "01.jpg", act: "Hat Juggling", caption: "" },
-  { file: "02.jpg", act: "Bouncing Ball", caption: "" },
-  { file: "03.jpg", act: "Hat Juggling", caption: "" },
+  { file: "01.jpg", act: "Bouncing Ball", caption: "" },
+  { file: "02.jpg", act: "Hat Juggling", caption: "" },
+  { file: "03.jpg", act: "Bouncing Ball", caption: "" },
   { file: "04.jpg", act: "Bouncing Ball", caption: "" },
-  { file: "05.jpg", act: "On stage", caption: "" },
-  { file: "06.jpg", act: "On stage", caption: "" },
-  { file: "07.jpg", act: "On tour", caption: "" },
-  { file: "08.jpg", act: "On tour", caption: "" },
+  { file: "05.jpg", act: "Bouncing Ball", caption: "" },
+  { file: "06.jpg", act: "Bouncing Ball", caption: "" },
+  { file: "07.jpg", act: "Bouncing Ball", caption: "" },
+  { file: "08.jpg", act: "Bouncing Ball", caption: "" },
+  { file: "09.jpg", act: "Bouncing Ball", caption: "" },
+  { file: "10.jpg", act: "Bouncing Ball", caption: "" },
+  { file: "11.jpg", act: "Bouncing Ball", caption: "" },
+  { file: "12.jpg", act: "Bouncing Ball", caption: "" },
 ].map((item, index) => ({
   title: `Photo ${String(index + 1).padStart(2, "0")}`,
   act: item.act,
